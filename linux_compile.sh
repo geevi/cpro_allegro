@@ -1,0 +1,2 @@
+gcc 1_learn_draw.c allegro.c -o 1.out $(pkg-config allegro-5 allegro_font-5 allegro_primitives-5 allegro_audio-5 allegro_acodec-5 allegro_image-5 --libs --cflags) -lm
+gcc 2_rec_drawing.c allegro.c -o 2.out $(pkg-config allegro-5 allegro_font-5 allegro_primitives-5 allegro_audio-5 allegro_acodec-5 allegro_image-5 --libs --cflags) -lm

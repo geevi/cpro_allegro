@@ -27,7 +27,7 @@ void allegro_init() {
     must_init(queue, "queue");
 
     // creates a display for drawinng
-    disp = al_create_display(640, 480);
+    disp = al_create_display(1024, 768);
     must_init(disp, "disp");
 
     must_init(al_init_primitives_addon(), "primitives");
