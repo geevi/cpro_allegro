@@ -1,5 +1,3 @@
-// 1. Install allegro library: https://github.com/liballeg/allegro_wiki/wiki/Quickstart
-// 2. Compile using: gcc 2_rec_drawing.c $(pkg-config allegro-5 allegro_font-5 allegro_primitives-5 allegro_audio-5 allegro_acodec-5 allegro_image-5 --libs --cflags) -lm
 #include <stdio.h>
 #include <math.h>
 #include "allegro.h"

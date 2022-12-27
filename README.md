@@ -9,6 +9,6 @@ A simplified interface to allegro libary is provided (allegro.h) which helps to 
 - Download and extract the code from: [https://github.com/geevi/cpro_allegro/archive/refs/heads/main.zip](https://github.com/geevi/cpro_allegro/archive/refs/heads/main.zip)
 - Compile using  
   ``gcc 2_rec_drawing.c allegro.c $(pkg-config allegro-5 allegro_font-5 allegro_primitives-5 allegro_audio-5 allegro_acodec-5 allegro_image-5 --libs --cflags) -lm``  
-  or run the script provided  
-  ``bash linux_compile.sh`` for linux and mac
-  ``windows_compile.bat`` for windows
+  or run the script provided    
+  ``bash linux_compile.sh`` for linux and mac   
+  ``windows_compile.bat`` for windows   
