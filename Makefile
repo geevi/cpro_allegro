@@ -1,3 +1,5 @@
+# Read Section 1,2 in https://www.gnu.org/software/make/manual/make.html#Introduction
+
 # Tells compiler to link the program to math and allegro libraries
 LDLIBS = -lm -lallegro_primitives -lallegro 
 
