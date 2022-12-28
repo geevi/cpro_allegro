@@ -106,8 +106,7 @@ from: [https://github.com/geevi/cpro_allegro/archive/refs/heads/main.zip](https:
 ### 3. Compile 
 using either of the bellow options  
   - Run the long command
-    - ```bash 
-    gcc 2_rec_drawing.c allegro.c $(pkg-config allegro-5 allegro_font-5 allegro_primitives-5 allegro_audio-5 allegro_acodec-5 allegro_image-5 --libs --cflags) -lm```
+  ``gcc 2_rec_drawing.c allegro.c $(pkg-config allegro-5 allegro_font-5 allegro_primitives-5 allegro_audio-5 allegro_acodec-5 allegro_image-5 --libs --cflags) -lm``
   - run the script provided 
     - ``bash linux_compile.sh`` for linux and mac 
     - ``windows_compile.bat`` for windows   
