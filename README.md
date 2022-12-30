@@ -73,7 +73,6 @@ brew install pkg-config
 
 </details>
 
-<details>
 
   Windows
 
