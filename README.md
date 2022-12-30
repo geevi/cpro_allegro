@@ -75,28 +75,19 @@ brew install pkg-config
 
 <details>
 <summary>Windows</summary>
-
-#### Visual Studio 2015+
-
-Install per-project using [NuGet](https://www.nuget.org/) in PowerShell:
-
-```ps1
-cd MyProjectDir\
-Install-Package Allegro
-```
-
-Or, just [[install from within Visual Studio|Allegro in Visual Studio#using-nuget-within-visual-studio]].
-
-#### MinGW (via MSYS2)
-
-* [Go to the Allegro releases page](https://github.com/liballeg/allegro5/releases) and find the most recent Allegro 5 version.
-  * There are a few options for MinGW - but for those new to Allegro, we recommend downloading the **x86_64 dynamic** package.
-  * This will be named - e.g. for v5.2.6 - **allegro-x86_64-w64-mingw32-gcc-9.2.0-posix-seh-dynamic-5.2.6.0.zip**.
-* Extract the relevant directories into your MinGW install's include & library paths:
-  * Find out where you installed MinGW (`C:\msys64` is the default).
-  * The .zip contains three directories under `allegro\`: `bin\ include\ lib\`.
-  * Extract the files from each to e.g. `C:\msys64\mingw64\bin`, `C:\msys64\mingw64\include`, `C:\msys64\mingw64\lib` respectively.
-
+1. Download and Install MSYS2 (https://www.msys2.org/)
+2. Install GCC and make: 
+    Open the MSYS2 UCRT64 terminal (from start menu)
+    run command `pacman -S mingw-w64-ucrt-x86_64-gcc`
+    run command `pacman -S make`
+3. Install Allegro
+    Download and extract: https://github.com/liballeg/allegro5/releases/download/5.2.8.0/allegro-x86_64-w64-mingw32-gcc-12.1.0-posix-seh-dynamic-5.2.8.0.zip
+    Copy the include, lib, bin folders in the extracted allegro folder to <MSYS2 Directory>\ucrt64.
+4. Download and extract the files in https://github.com/geevi/cpro_allegro/archive/refs/heads/main.zip to <MSYS2 Directory>/home/<username>/
+5. Open MSYS2 UCRT64 terminal (from start menu). 
+    `cd cpro_allegro-main`
+    `make`
+6. In VS Code, install the MYSYS suppport extension
 </details>
 
 ### 2. Download and extract the code 
