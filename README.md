@@ -75,18 +75,30 @@ brew install pkg-config
 
 <details>
 <summary>Windows</summary>
+
 1. Download and Install MSYS2 (https://www.msys2.org/)  
+  
 2. Install GCC and make:   
-    Open the MSYS2 UCRT64 terminal (from start menu)  
-    run command `pacman -S mingw-w64-ucrt-x86_64-gcc`  
-    run command `pacman -S make`  
-3. Install Allegro  
-    Download and extract: https://github.com/liballeg/allegro5/releases/download/5.2.8.0/allegro-x86_64-w64-mingw32-gcc-12.1.0-posix-seh-dynamic-5.2.8.0.zip  
-    Copy the include, lib, bin folders in the extracted allegro folder to <MSYS2 Directory>\ucrt64.  
-4. Download and extract the files in https://github.com/geevi/cpro_allegro/archive/refs/heads/main.zip to <MSYS2 Directory>/home/<username>/  
-5. Open MSYS2 UCRT64 terminal (from start menu).   
-    `cd cpro_allegro-main`  
-    `make`  
+  
+  Open the MSYS2 UCRT64 terminal (from start menu)  
+  
+  run command `pacman -S mingw-w64-ucrt-x86_64-gcc`  
+  
+  run command `pacman -S make`  
+
+  3. Install Allegro  
+    
+  Download and extract: https://github.com/liballeg/allegro5/releases/download/5.2.8.0/allegro-x86_64-w64-mingw32-gcc-12.1.0-posix-seh-dynamic-5.2.8.0.zip  
+   
+  Copy the include, lib, bin folders in the extracted allegro folder to <MSYS2 Directory>\ucrt64.  
+
+  4. Download and extract the files in https://github.com/geevi/cpro_allegro/archive/refs/heads/main.zip to <MSYS2 Directory>/home/<username>/  
+
+  5. Open MSYS2 UCRT64 terminal (from start menu).   
+  
+  `cd cpro_allegro-main`  
+  
+  `make`  
 </details>
 
 ### 2. Download and extract the code 
